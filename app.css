@@ -34,6 +34,11 @@ body{
     line-height: 1.5;
     color: #495057;
 }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
 h1,h2,h3,h4,h5{
     font-weight: 700;
     line-height: 1.2;
@@ -68,9 +73,6 @@ span{
 }
 ul{
     list-style: none;
-}
-li{
-    display: inline-block;
 }
 .small-text{
     font-size: 12px;
@@ -149,8 +151,7 @@ li{
 /*-----NAV BAR SECTION-----*/
 .navbar{
     margin-bottom: 200px;
-    display: flex; 
-    justify-content: space-between;
+
 
 }
 
@@ -181,24 +182,34 @@ li{
 
 }
 .features-img{
-    width: 400px;
+    max-width:400px;
+    width: 100%;
 }
 .features-headings{
     margin-bottom: 20px;
 }
+
+
+
 /*-----CTA SECTION-----*/
 .cta-section{
     margin-bottom: 300PX;
+
+ 
 } 
 .cta-card{
     background-color: #339af0;
     text-align: center;
-    width: 1000px;
+    max-width: 1000px;
     padding: 100px 200px;
     border-radius: 20px;
+    margin: 0 auto;
 }
 .cta-card{
     margin-bottom: 30px;
+}
+.cta-heading{
+    margin-bottom: 20px;
 }
 /*-----FOOTER SECTION-----*/
 .footer{
